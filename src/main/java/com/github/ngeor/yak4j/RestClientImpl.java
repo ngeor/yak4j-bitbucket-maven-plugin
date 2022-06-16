@@ -1,12 +1,8 @@
 package com.github.ngeor.yak4j;
 
+import okhttp3.*;
+
 import java.io.IOException;
-import okhttp3.MediaType;
-import okhttp3.OkHttpClient;
-import okhttp3.Request;
-import okhttp3.RequestBody;
-import okhttp3.Response;
-import okhttp3.ResponseBody;
 
 /**
  * Implementation of {@link RestClient} using {@link OkHttpClient}.
